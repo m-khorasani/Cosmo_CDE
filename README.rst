@@ -1,17 +1,17 @@
 ===================
-CosmoMC_CDE
+Cosmo_CDE
 ===================
 
 Description
 =============================
 
-CosmoMC_CDE is a fork of `CosmoMC Planck 2018 <https://github.com/cmbant/CosmoMC/tree/planck2018>`_. It utilizes an eighth-order Runge-Kutta algorithm to evaluate the Friedmann equation and incorporates the perturbed Klein-Gordon equation for the Cascading Dark Energy (CDE) model `paper <https://arxiv.org/pdf/2208.07631>`_. Furthermore, DESI BAO and Pantheon+ datasets are incorporated.  
+Cosmo_CDE is a fork of `CosmoMC Planck 2018 <https://github.com/cmbant/CosmoMC/tree/planck2018>`_. It utilizes an eighth-order Runge-Kutta algorithm to evaluate the Friedmann equation and incorporates the perturbed Klein-Gordon equation for the Cascading Dark Energy (CDE) model `paper <https://arxiv.org/pdf/2208.07631>`_. Furthermore, DESI BAO and Pantheon+ datasets are incorporated.  
 
 
-Citing CosmoMC_CDE
+Citing Cosmo_CDE
 =============================
 
-If you use CosmoMC_CDE for your scientific work, please cite the following paper:
+If you use Cosmo_CDE for your scientific work, please cite the following paper:
 
 -   | *Cascading Dark Energy* 
 
@@ -27,7 +27,7 @@ as well as the original CAMB `paper <https://arxiv.org/abs/astro-ph/9911177>`_ a
 Changes
 =============================
 
-The main changes are focused on `equation_ppf_CDE.f90 <https://github.com/m-khorasani/CosmoMC_CDE/blob/planck2018/camb/equations_ppf_CDE.f90>`_ and `supernovae_JLA.f90 <https://github.com/m-khorasani/CosmoMC_CDE/blob/planck2018/source/supernovae_JLA.f90>`_. The former describes the numerical solutions for the eighth-order Runge-Kutta algorithm and the perturbed Klein-Gordon equation, and the latter has been modified to update the inverse covariance matrix of supernovae to incorporate the Pantheon+ datasets into the code. You can review all changes in these two files, as well as in all other relevant files within the block:
+The main changes are focused on `equation_ppf_CDE.f90 <https://github.com/m-khorasani/Cosmo_CDE/blob/planck2018/camb/equations_ppf_CDE.f90>`_ and `supernovae_JLA.f90 <https://github.com/m-khorasani/CosmoMC_CDE/blob/planck2018/source/supernovae_JLA.f90>`_. The former describes the numerical solutions for the eighth-order Runge-Kutta algorithm and the perturbed Klein-Gordon equation, and the latter has been modified to update the inverse covariance matrix of supernovae to incorporate the Pantheon+ datasets into the code. You can review all changes in these two files, as well as in all other relevant files within the block:
 
 !---CDE Start
 
